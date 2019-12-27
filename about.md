@@ -4,5 +4,5 @@ title: About
 
 ---
 
-# Some info 
-...about how cool you are ;)
+# 개인 정리용 블로그
+열심히 하자!
