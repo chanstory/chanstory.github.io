@@ -1,7 +1,7 @@
 ---
 layout: post
 title: json으로 넘어간 파라미터 받기
-date: 2020-01-22
+date: 2020-02-02
 tags: spring
 ---
 
