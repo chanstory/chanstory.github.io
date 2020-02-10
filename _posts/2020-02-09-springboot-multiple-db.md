@@ -10,7 +10,7 @@ AWS서버에 올라가있는 MySQL과 로컬에 H2 DB 사용
 
 H2 DB  설정
 
-{% highlight scss %}
+{% highlight java %}
 package com.myapp.dataSource;
 
 import java.util.HashMap;
@@ -95,7 +95,7 @@ public class H2Config {
 
 H2 DB를 사용한 레파지토리
 
-{% highlight scss %}
+{% highlight java %}
 //이 패키지 이름이 설정에 @EnableJpaRepositories 어노테이션에 명시되어야 함
 package com.myapp.repository.h2Repository;
 
@@ -112,7 +112,7 @@ public interface MemberRepository extends JpaRepository<Member, Long>
 
 properties파일 관련내용
 
-{% highlight scss %}
+{% highlight java %}
 #dataSource
 datasource.mysql.driverClassName=com.mysql.jdbc.Driver
 datasource.mysql.url=DBUrl

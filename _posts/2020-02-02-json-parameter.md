@@ -33,7 +33,7 @@ jQuery로 ajax를 보낼 때 ContentType을 명시하지 않으면 디폴트로 
 
 그럼이제 Payload를 받는 법을 알아보자
 스프링에서는 @RequestBody 어노테이션으로 Payload데이터를 받을 수 있다.
-{% highlight scss %}
+{% highlight java %}
 //회원가입
 @RequestMapping("/join")
     public JSONObject join(@RequestBody Map payload) {

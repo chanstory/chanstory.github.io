@@ -11,7 +11,7 @@ word파일 파싱할 일이 있어 POI 라이브러리를 사용한 word파일 �
 자세한 사용법은 [https://www.tutorialspoint.com/apache_poi_word/apache_poi_word_quick_guide.htm](https://www.tutorialspoint.com/apache_poi_word/apache_poi_word_quick_guide.htm) 참조하면 된다.
 
 word97~2003 파일 파싱(확장자 .doc)
-{% highlight scss %}
+{% highlight java %}
 public String DocFileContentParser(String filePathName) {
     FileInputStream input = null;
 
@@ -41,7 +41,7 @@ public String DocFileContentParser(String filePathName) {
 
 
 word파일 파싱(확장자 .docx)
-{% highlight scss %}
+{% highlight java %}
 public String DocxFileContentParser(String filePathName) {
     FileInputStream input = null;
 
@@ -67,7 +67,7 @@ public String DocxFileContentParser(String filePathName) {
 {% endhighlight %}
 
 word파일 생성
-{% highlight scss %}
+{% highlight java %}
 public void DocFileContentWrite(String filePathName, String text) {
 		
     FileOutputStream out = null;
