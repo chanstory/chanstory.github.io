@@ -11,7 +11,7 @@ React에서 axios 모듈을 사용하여 post 방식으로 파라미터를 넘�
 
 크롬 개발자 도구로 확인해보니 
 
-![img]({{ '/assets/images/jsonHeader.PNG' | relative_url }}){: .center-image }
+![img]({{ '/assets/images/json-parameter/jsonHeader.PNG' | relative_url }}){: .center-image }
 
 Request Payload에 데이터가 담겨있는데 
 Request Payload를 모르겠어서 검색해봤다..
@@ -44,5 +44,5 @@ jQuery로 ajax를 보낼 때 ContentType을 명시하지 않으면 디폴트로 
 
 결과
 
-![img]({{ '/assets/images/logCapture.PNG' | relative_url }}){: .center-image }
+![img]({{ '/assets/images/json-parameter/logCapture.PNG' | relative_url }}){: .center-image }
 받아온 데이터가 출력되는걸 확인할 수 있다!

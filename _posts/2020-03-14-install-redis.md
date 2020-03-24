@@ -41,7 +41,7 @@ $ df -h
 {% endhighlight %}
 명령어로 확인해보니 용량이 부족한 상태..
 
-![img]({{ '/assets/images/volume.PNG' | relative_url }}){: .center-image }
+![img]({{ '/assets/images/install-redis/volume.PNG' | relative_url }}){: .center-image }
 AWS에 접속해 EC2 볼륨의 용량을 늘려주고 
 
 {% highlight bash %}
@@ -60,8 +60,8 @@ $ sudo make install
 {% highlight bash %}
 $ redis-server
 {% endhighlight %}
-![img]({{ '/assets/images/redis.PNG' | relative_url }}){: .center-image }
+![img]({{ '/assets/images/install-redis/redis.PNG' | relative_url }}){: .center-image }
 잘 실행된다!
 
-![img]({{ '/assets/images/redisTest.PNG' | relative_url }})
+![img]({{ '/assets/images/install-redis/redisTest.PNG' | relative_url }})
 테스트 완료
