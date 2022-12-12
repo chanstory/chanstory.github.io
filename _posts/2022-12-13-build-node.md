@@ -3,6 +3,7 @@ layout: post
 title: window에서 node.js 빌드하기
 date: 2022-12-13
 tags: node.js
+published: true
 ---
 
 cluster 모듈 코드를 분석해보기 위해
